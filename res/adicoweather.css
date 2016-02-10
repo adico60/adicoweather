@@ -1,0 +1,672 @@
+strong {
+    font-weight: bold;
+}
+div.tx-adicoweather-pi1 h2 {
+    text-align: center;
+}
+div.tx-adicoweather-pi1 p {
+    text-align: center;
+}
+.widgetBox {
+    background-color: #ffffff;
+    background-image: none;
+    color: #ffffff;
+    font-family: Arial,Helvetica,Verdana,sans-serif;
+    font-size: 12px;
+    line-height: 13px;
+    position: relative;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    margin-left:auto;
+    margin-right:auto;
+}
+.widgetBox .text {
+    position: relative;
+    z-index: 9;
+}
+.widgetContent {
+    position: absolute;
+    z-index: 9;
+}
+.pictoSize1 {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+}
+
+.pictoSize1 div {
+    height: 52px;
+    width: 80px;
+}
+.pictoSize2 {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+}
+
+.pictoSize2 div {
+    height: 70px;
+    width: 130px;
+}
+.pictoSize3 {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+}
+
+.pictoSize3 div {
+    height: 90px;
+    width: 160px;
+}
+.pictoSize4 {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+}
+
+.pictoSize4 div {
+    height: 40px;
+    width: 60px;
+}
+
+.widgetBoxNormal .temperatures {
+    font-size: 16px;
+    font-weight: bold;
+}
+.widgetBoxNormal .day {
+    font-weight: bold;
+    margin: 0 0 46px;
+}
+.widgetBoxNormal .day1, .widgetBoxNormal .day2, .widgetBoxNormal .day3, .widgetBoxNormal .day4, .widgetBoxNormal .day5 {
+    float: left;
+    height: 90px;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    width: 90px;
+}
+.day2, .day3 {
+    margin-top: 1em;
+	margin-left: 0.5em;
+}
+
+.widgetBoxNormal .description {
+    line-height: 110%;
+}
+.widgetBoxNormal .pictoSize1 {
+    left: 10px;
+    top: 16px;
+}
+.widgetBoxNormal .pictoSize2 {
+    left: 60px;
+    top: 10px;
+}
+.widgetBoxNormalOneday {
+    height: 100px;
+    width: 100px;
+}
+.widgetBoxNormalOneday .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/normal-1day-overlay.png") no-repeat scroll 0 0;
+    height: 100px;
+    position: absolute;
+    width: 100px;
+    z-index: 2;
+}
+.widgetBoxNormalTwodays {
+    height: 100px;
+    width: 200px;
+}
+.widgetBoxNormalTwodays .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/normal-2days-overlay.png") no-repeat scroll 0 0;
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+.widgetBoxNormalThreedays {
+    height: 200px;
+    width: 200px;
+}
+.widgetBoxNormalThreedays .day1 {
+    float: left;
+    height: 90px;
+    padding: 5px;
+    text-align: left;
+    width: 190px;
+}
+.widgetBoxNormalThreedays .day1 .temperatures {
+    font-size: 38px;
+    line-height: 35px;
+}
+.widgetBoxNormalThreedays .day1 .day {
+    font-weight: bold;
+    margin: 0 0 1px;
+}
+.widgetBoxNormalThreedays .day1 .description {
+    font-weight: bold;
+}
+.widgetBoxNormalThreedays .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/normal-3days-overlay.png") no-repeat scroll 0 0;
+    height: 200px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+.widgetBoxNormalFourdays {
+    height: 200px;
+    width: 200px;
+}
+.widgetBoxNormalFourdays .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/normal-4days-overlay.png") no-repeat scroll 0 0;
+    height: 200px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+.widgetBoxNormalFivedays {
+    height: 300px;
+    width: 200px;
+}
+.widgetBoxNormalFivedays .day1 {
+    float: left;
+    height: 90px;
+    padding: 5px;
+    text-align: left;
+    width: 190px;
+}
+.widgetBoxNormalFivedays .day1 .temperatures {
+    font-size: 48px;
+    line-height: 45px;
+}
+.widgetBoxNormalFivedays .day1 .day {
+    font-weight: bold;
+    margin: 0 0 1px;
+}
+.widgetBoxNormalFivedays .day1 .description {
+    font-weight: bold;
+}
+.widgetBoxNormalFivedays .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/normal-5days-overlay.png") no-repeat scroll 0 0;
+    height: 300px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+.widgetBoxMoyen .temperatures {
+    font-size: 44px;
+    font-weight: normal;
+    letter-spacing: -0.1em;
+    line-height: 40px;
+}
+.widgetBoxMoyen .day {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.widgetBoxMoyen .day1, .widgetBoxMoyen .day2, .widgetBoxMoyen .day3, .widgetBoxMoyen .day4, .widgetBoxMoyen .day5 {
+    float: left;
+    height: 88px;
+    padding: 8px;
+    position: relative;
+    text-align: left;
+    width: 284px;
+}
+.widgetBoxMoyen .description {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 13px;
+}
+.widgetBoxMoyen .pictoSize3 {
+    left: 120px;
+    top: 36px;
+}
+.widgetBoxMoyen .day1 {
+    float: left;
+    height: 130px;
+    width: 284px;
+}
+.widgetBoxMoyen .day1 .temperatures {
+    font-size: 70px;
+    line-height: 70px;
+}
+.widgetBoxMoyen .day1 .day {
+    float: right;
+    margin: 0 0 10px;
+    text-align: right;
+}
+.widgetBoxMoyen .day1 .description {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+}
+.widgetBoxMoyenOneday {
+    height: 145px;
+    width: 300px;
+}
+.widgetBoxMoyenOneday .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/moyen-1day-overlay.png") no-repeat scroll 0 0;
+    height: 145px;
+    position: absolute;
+    width: 300px;
+    z-index: 2;
+}
+.widgetBoxMoyenTwodays {
+    height: 250px;
+    width: 300px;
+}
+.widgetBoxMoyenTwodays .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/moyen-2days-overlay.png") no-repeat scroll 0 0;
+    height: 250px;
+    position: absolute;
+    width: 300px;
+    z-index: 2;
+}
+.widgetBoxMoyenTwodays .day2 {
+    width: 284px;
+}
+.widgetBoxMoyenTwodays .day2 .day {
+    float: right;
+    text-align: right;
+}
+.widgetBoxMoyenTwodays .day2 .temperatures {
+    font-size: 48px;
+    line-height: 48px;
+}
+.widgetBoxMoyenTwodays .day2 .description {
+    font-weight: bold;
+}
+.widgetBoxMoyenTwodays .day2 .pictoSize1 {
+    left: 110px;
+    top: 10px;
+}
+.widgetBoxMoyenThreedays {
+    height: 250px;
+    width: 300px;
+}
+.widgetBoxMoyenThreedays .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/moyen-3days-overlay.png") no-repeat scroll 0 0;
+    height: 250px;
+    position: absolute;
+    width: 300px;
+    z-index: 2;
+}
+.widgetBoxMoyenThreedays .day2, .widgetBoxMoyenThreedays .day3 {
+    width: 134px;
+}
+.widgetBoxMoyenThreedays .day2 .temperatures, .widgetBoxMoyenThreedays .day3 .temperatures {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+.widgetBoxMoyenThreedays .day2 .description, .widgetBoxMoyenThreedays .day3 .description {
+    font-weight: bold;
+}
+.widgetBoxMoyenThreedays .pictoSize1 {
+    left: 10px;
+    top: 18px;
+}
+.widgetBoxMoyenFourdays {
+    height: 250px;
+    width: 300px;
+}
+.widgetBoxMoyenFourdays .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/moyen-4days-overlay.png") no-repeat scroll 0 0;
+    height: 250px;
+    position: absolute;
+    width: 300px;
+    z-index: 2;
+}
+.widgetBoxMoyenFourdays .day2, .widgetBoxMoyenFourdays .day3, .widgetBoxMoyenFourdays .day4 {
+    text-align: center;
+    width: 84px;
+}
+.widgetBoxMoyenFourdays .day2 .day, .widgetBoxMoyenFourdays .day3 .day, .widgetBoxMoyenFourdays .day4 .day {
+    margin-bottom: 34px;
+}
+.widgetBoxMoyenFourdays .day2 .temperatures, .widgetBoxMoyenFourdays .day3 .temperatures, .widgetBoxMoyenFourdays .day4 .temperatures {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.widgetBoxMoyenFourdays .day2 .description, .widgetBoxMoyenFourdays .day3 .description, .widgetBoxMoyenFourdays .day4 .description {
+    font-size: 11px;
+    line-height: 12px;
+}
+.widgetBoxMoyenFourdays .pictoSize4 {
+    left: 20px;
+    top: 20px;
+}
+.widgetBoxMoyenFivedays {
+    height: 250px;
+    width: 300px;
+}
+.widgetBoxMoyenFivedays .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/moyen-5days-overlay.png") no-repeat scroll 0 0;
+    height: 250px;
+    position: absolute;
+    width: 300px;
+    z-index: 2;
+}
+.widgetBoxMoyenFivedays .day2, .widgetBoxMoyenFivedays .day3, .widgetBoxMoyenFivedays .day4, .widgetBoxMoyenFivedays .day5 {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 59px;
+}
+.widgetBoxMoyenFivedays .day2 .day, .widgetBoxMoyenFivedays .day3 .day, .widgetBoxMoyenFivedays .day4 .day, .widgetBoxMoyenFivedays .day5 .day {
+    font-size: 12px;
+    margin-bottom: 36px;
+}
+.widgetBoxMoyenFivedays .day2 .temperatures, .widgetBoxMoyenFivedays .day3 .temperatures, .widgetBoxMoyenFivedays .day4 .temperatures, .widgetBoxMoyenFivedays .day5 .temperatures {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.widgetBoxMoyenFivedays .day2 .description, .widgetBoxMoyenFivedays .day3 .description, .widgetBoxMoyenFivedays .day4 .description, .widgetBoxMoyenFivedays .day5 .description {
+    font-size: 11px;
+    line-height: 10px;
+}
+.widgetBoxMoyenFivedays .pictoSize4 {
+    left: 8px;
+    top: 20px;
+}
+.widgetBoxGrand .temperatures {
+    font-size: 44px;
+    font-weight: normal;
+    letter-spacing: -0.1em;
+    line-height: 40px;
+}
+.widgetBoxGrand .day {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 62px;
+    text-align: right;
+}
+.widgetBoxGrand .day1, .widgetBoxGrand .day2, .widgetBoxGrand .day3, .widgetBoxGrand .day4, .widgetBoxGrand .day5 {
+    float: left;
+    height: 184px;
+    padding: 8px;
+    position: relative;
+    text-align: left;
+    width: 104px;
+}
+.widgetBoxGrand .description {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 15px;
+    margin: 0 0 4px;
+}
+.widgetBoxGrand .pictoSize1 {
+    left: 20px;
+    top: 28px;
+}
+.widgetBoxGrand .pictoSize3 {
+    left: 60px;
+    top: 28px;
+}
+.widgetBoxGrandOneday {
+    height: 200px;
+    width: 240px;
+}
+.widgetBoxGrandOneday .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/grand-1day-overlay.png") no-repeat scroll 0 0;
+    height: 200px;
+    position: absolute;
+    width: 240px;
+    z-index: 2;
+}
+.widgetBoxGrandOneday .day1 {
+    float: left;
+    width: 224px;
+}
+.widgetBoxGrandOneday .day1 .temperatures {
+    font-size: 60px;
+    line-height: 50px;
+}
+.widgetBoxGrandOneday .day1 .day {
+    margin: 0 0 40px;
+}
+.widgetBoxGrandTwodays {
+    height: 200px;
+    width: 360px;
+}
+.widgetBoxGrandTwodays .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/grand-2days-overlay.png") no-repeat scroll 0 0;
+    height: 200px;
+    position: absolute;
+    width: 360px;
+    z-index: 2;
+}
+.widgetBoxGrandTwodays .day1 {
+    float: left;
+    width: 224px;
+}
+.widgetBoxGrandTwodays .day1 .temperatures {
+    font-size: 60px;
+    line-height: 50px;
+}
+.widgetBoxGrandTwodays .day1 .day {
+    margin: 0 0 40px;
+}
+.widgetBoxGrandThreedays {
+    height: 200px;
+    width: 480px;
+}
+.widgetBoxGrandThreedays .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/grand-3days-overlay.png") no-repeat scroll 0 0;
+    height: 200px;
+    position: absolute;
+    width: 480px;
+    z-index: 2;
+}
+.widgetBoxGrandThreedays .day1 {
+    float: left;
+    width: 224px;
+}
+.widgetBoxGrandThreedays .day1 .temperatures {
+    font-size: 60px;
+    line-height: 50px;
+}
+.widgetBoxGrandThreedays .day1 .day {
+    margin: 0 0 40px;
+}
+.widgetBoxGrandFourdays {
+    height: 200px;
+    width: 480px;
+}
+.widgetBoxGrandFourdays .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/grand-4days-overlay.png") no-repeat scroll 0 0;
+    height: 200px;
+    position: absolute;
+    width: 480px;
+    z-index: 2;
+}
+.widgetBoxGrandFivedays {
+    height: 200px;
+    width: 600px;
+}
+.widgetBoxGrandFivedays .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/grand-5days-overlay.png") no-repeat scroll 0 0;
+    height: 200px;
+    position: absolute;
+    width: 600px;
+    z-index: 2;
+}
+.widgetBoxHorizontal .day1 {
+    float: left;
+    height: 54px;
+    padding: 3px 5px;
+    position: relative;
+    width: 270px;
+}
+.widgetBoxHorizontal .day1 .pictoSize1 {
+    left: 96px;
+    top: 4px;
+}
+.widgetBoxHorizontal .day1 .day {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 13px;
+}
+.widgetBoxHorizontal .day1 .temperatures {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 40px;
+}
+.widgetBoxHorizontal .day1 .description {
+    float: right;
+    width: 35%;
+}
+.widgetBoxHorizontal .day2, .widgetBoxHorizontal .day3, .widgetBoxHorizontal .day4, .widgetBoxHorizontal .day5 {
+    float: left;
+    height: 54px;
+    padding: 3px 5px;
+    position: relative;
+    text-align: center;
+    width: 80px;
+}
+.widgetBoxHorizontal .day2 .pictoSize4, .widgetBoxHorizontal .day3 .pictoSize4, .widgetBoxHorizontal .day4 .pictoSize4, .widgetBoxHorizontal .day5 .pictoSize4 {
+    left: 15px;
+    top: 11px;
+}
+.widgetBoxHorizontal .day2 .day, .widgetBoxHorizontal .day3 .day, .widgetBoxHorizontal .day4 .day, .widgetBoxHorizontal .day5 .day {
+    font-weight: bold;
+    margin: 0 0 28px;
+}
+.widgetBoxHorizontal .day2 .temperatures, .widgetBoxHorizontal .day3 .temperatures, .widgetBoxHorizontal .day4 .temperatures, .widgetBoxHorizontal .day5 .temperatures {
+    font-weight: bold;
+}
+.widgetBoxHorizontalOneday {
+    height: 60px;
+    width: 280px;
+}
+.widgetBoxHorizontalOneday .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/horizontal-1day-overlay.png") no-repeat scroll 0 0;
+    height: 60px;
+    position: absolute;
+    width: 280px;
+    z-index: 2;
+}
+.widgetBoxHorizontalTwodays {
+    height: 60px;
+    width: 370px;
+}
+.widgetBoxHorizontalTwodays .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/horizontal-2days-overlay.png") no-repeat scroll 0 0;
+    height: 60px;
+    position: absolute;
+    width: 370px;
+    z-index: 2;
+}
+.widgetBoxHorizontalThreedays {
+    height: 60px;
+    width: 460px;
+}
+.widgetBoxHorizontalThreedays .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/horizontal-3days-overlay.png") no-repeat scroll 0 0;
+    height: 60px;
+    position: absolute;
+    width: 460px;
+    z-index: 2;
+}
+.widgetBoxHorizontalFourdays {
+    height: 60px;
+    width: 550px;
+}
+.widgetBoxHorizontalFourdays .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/horizontal-4days-overlay.png") no-repeat scroll 0 0;
+    height: 60px;
+    position: absolute;
+    width: 550px;
+    z-index: 2;
+}
+.widgetBoxHorizontalFivedays {
+    height: 60px;
+    width: 640px;
+}
+.widgetBoxHorizontalFivedays .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/horizontal-5days-overlay.png") no-repeat scroll 0 0;
+    height: 60px;
+    position: absolute;
+    width: 640px;
+    z-index: 2;
+}
+.widgetBoxVertical .temperatures {
+    font-size: 14px;
+    font-weight: bold;
+}
+.widgetBoxVertical .day {
+    font-weight: bold;
+    margin: 0 0 37px;
+}
+.widgetBoxVertical .day1, .widgetBoxVertical .day2, .widgetBoxVertical .day3, .widgetBoxVertical .day4, .widgetBoxVertical .day5 {
+    float: left;
+    height: 65px;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    width: 60px;
+}
+.widgetBoxVertical .pictoSize4 {
+    left: 5px;
+    top: 17px;
+}
+.widgetBoxVerticalOneday {
+    height: 75px;
+    width: 70px;
+}
+.widgetBoxVerticalOneday .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/vertical-1day-overlay.png") no-repeat scroll 0 0;
+    height: 75px;
+    position: absolute;
+    width: 70px;
+    z-index: 2;
+}
+.widgetBoxVerticalTwodays {
+    height: 150px;
+    width: 70px;
+}
+.widgetBoxVerticalTwodays .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/vertical-2days-overlay.png") no-repeat scroll 0 0;
+    height: 150px;
+    position: absolute;
+    width: 70px;
+    z-index: 2;
+}
+.widgetBoxVerticalThreedays {
+    height: 225px;
+    width: 70px;
+}
+.widgetBoxVerticalThreedays .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/vertical-3days-overlay.png") no-repeat scroll 0 0;
+    height: 225px;
+    position: absolute;
+    width: 70px;
+    z-index: 2;
+}
+.widgetBoxVerticalFourdays {
+    height: 300px;
+    width: 70px;
+}
+.widgetBoxVerticalFourdays .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/vertical-4days-overlay.png") no-repeat scroll 0 0;
+    height: 300px;
+    position: absolute;
+    width: 70px;
+    z-index: 2;
+}
+.widgetBoxVerticalFivedays {
+    height: 375px;
+    width: 70px;
+}
+.widgetBoxVerticalFivedays .overlay {
+    background: transparent url("http://widget.meteocity.com/templates/images/style1/vertical-5days-overlay.png") no-repeat scroll 0 0;
+    height: 375px;
+    position: absolute;
+    width: 70px;
+    z-index: 2;
+}
